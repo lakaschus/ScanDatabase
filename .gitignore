@@ -1,0 +1,6 @@
+documents/*
+.env
+database/meta_files/*
+database/renamed_files/*
+database/*.csv
+database/*.xlsx

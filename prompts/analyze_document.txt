@@ -1,0 +1,18 @@
+Bitte analysiere den angehängten Scan eines Dokument und extrahiere die relevanten Informationen. Erstelle eine Metadatei im YAML-Format, die die folgenden Felder enthält:
+
+- document_type: Der Typ oder die Kategorie des Dokuments (z.B. Rechnung, Quittung, Vertrag, Brief).
+- date: Das Datum des Dokuments, falls vorhanden (z.B. Rechnungsdatum, Briefdatum).
+- author: Die Person oder Organisation, die das Dokument erstellt oder gesendet hat.
+- recipient: Die Person oder Organisation, an die das Dokument adressiert ist.
+- title: Der Haupttitel oder das Thema des Dokuments.
+- keywords: Wichtige Begriffe oder Phrasen, die aus dem Dokument extrahiert wurden, um die Suche zu erleichtern.
+- summary: Eine kurze Zusammenfassung des Inhalts des Dokuments.
+- entities: Wichtige im Dokument erwähnte Entitäten (z.B. Namen, Orte, Organisationen).
+- page: Die Seitenzahl des Dokuments (z.B. Seite 1 von 3).
+
+Die Antwort sollte z.B. wie folgt aussehen:
+```yaml
+document_type: Rechnung
+date: 2020-12-01
+...
+```

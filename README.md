@@ -9,3 +9,5 @@ I use this for my personal document archive. Because I am very messy and always 
 3. Take all scans and let ChatGPT categorize them
 4. For each scan a informative file name is generated as well as meta file that contains all relevant information
 5. A csv / excel is generated for searchability and uploaded to Google drive for backup
+
+Note: Since my documents are almost entirely in German the prompts I've designed are also German
