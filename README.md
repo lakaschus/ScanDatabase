@@ -11,3 +11,13 @@ I use this for my personal document archive. Because I am very messy and always 
 5. A csv / excel is generated for searchability and uploaded to Google drive for backup
 
 Note: Since my documents are almost entirely in German the prompts I've designed are also German
+
+## How to run
+
+To run this code, follow these steps:
+
+0. `conda env create -f environment.yaml` and then `conda activate <env_name>`
+1. Ensure you have the OpenAI API key. Add it to the .env file as `OPENAI_API_KEY=<your_api_key>`. You can use the example.env file as a template.
+2. Place your scanned documents in the documents directory.
+3. If necessary, modify the prompt in prompts/analyze_document.txt.
+4. Run the script using Python. In your terminal, navigate to the directory containing main.py and run the command:
