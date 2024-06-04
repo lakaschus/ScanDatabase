@@ -5,10 +5,11 @@ Please analyze the attached scan of a document and extract the relevant informat
 - author: The person or organization that created or sent the document.
 - recipient: The person or organization to whom the document is addressed.
 - title: The main title or subject of the document.
-- keywords: Important terms or phrases extracted from the document to facilitate searching.
 - summary: A brief summary of the content of the document.
-- entities: Important entities mentioned in the document (e.g., names, places, organizations).
-- page: The page number of the document (e.g., page 1 of 3).
+- names: All names of persons mentioned in the document.
+- places: All locations or addresses mentioned in the document.
+- organizations: All organizations or companies mentioned in the document.
+- goods: All goods or products mentioned in the document.
 
 The response must be strictly in YAML format and contain only the metadata fields specified above, without any additional text or explanations in your response. Here is an example of the expected output in YAML format:
 
@@ -20,6 +21,8 @@ recipient: Jane Smith
 title: December Invoice for Services
 keywords: [invoice, December, payment]
 summary: This is the invoice for December 2020 services. It mentions repair services for bikes.
-entities: [John Doe, Jane Smith, XYZ Corporation]
-page: 1
+names: [John Doe, Jane Smith]
+places: [New York, Brooklyn]
+organizations: [ABC Repair Services, XYZ Bikes]
+goods: [bike parts, repair services]
 ```
