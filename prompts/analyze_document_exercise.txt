@@ -1,0 +1,13 @@
+Please analyze the attached scan of a document and extract the relevant information:
+
+- document_type: The type or category of the document (e.g., invoice, receipt, contract, letter).
+- date: The date of the document, if available (e.g., invoice date, letter date).
+- author: The person or organization that created or sent the document.
+- recipient: The person or organization to whom the document is addressed.
+- title: The main title or subject of the document.
+- keywords: Important terms or phrases extracted from the document to facilitate searching.
+- summary: A brief summary of the content of the document.
+- entities: Important entities mentioned in the document (e.g., names, places, organizations).
+- page: The page number of the document (e.g., page 1 of 3).
+
+<TODO> Extend the prompt here. Hint: You have to make sure that the model responds in a consistent way to be able to reliably extract the information from the model response.
