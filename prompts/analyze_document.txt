@@ -1,11 +1,11 @@
 Please analyze the attached scan of a document and extract the relevant information. Create a metadata file in YAML format that includes only the following fields and nothing else:
 
 - document_type: The type or category of the document (e.g., invoice, receipt, contract, letter).
-- date: The date of the document, if available (e.g., invoice date, letter date).
+- date: The date of the document, if available (e.g., invoice date, letter date, birthday).
 - author: The person or organization that created or sent the document.
 - recipient: The person or organization to whom the document is addressed.
 - title: The main title or subject of the document.
-- summary: A brief summary of the content of the document.
+- content: Extract the main content from the document as full text.
 - names: All names of persons mentioned in the document.
 - places: All locations or addresses mentioned in the document.
 - organizations: All organizations or companies mentioned in the document.
@@ -20,7 +20,7 @@ author: John Doe
 recipient: Jane Smith
 title: December Invoice for Services
 keywords: [invoice, December, payment]
-summary: This is the invoice for December 2020 services. It mentions repair services for bikes.
+content: He worked on repairing the bike parts and provided repair services as per the agreement. The invoice is due by the end of the month...
 names: [John Doe, Jane Smith]
 places: [New York, Brooklyn]
 organizations: [ABC Repair Services, XYZ Bikes]
